@@ -1,0 +1,203 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #0C70F2;
+    font-family: Inter;
+    color: white;
+    width: 1349px;
+    height: 103px;
+    display: grid;
+    grid-auto-flow: column;
+    columns: auto;
+}
+
+.pNavBar {
+    font-family: Inter;
+    color: white;
+    margin: auto;
+}
+
+#navBarP {
+    padding-left: 600px;
+}
+
+#titlePage {
+    margin: auto;
+    margin-left: 55px;
+}
+
+.tituloPrincipal {
+    font-family: Inter;
+    font-size: 10px;
+    display: grid;
+    grid-auto-flow: column;
+    columns: auto;
+    margin: auto;
+    
+}
+
+#title1 {
+    padding-top: 70px;
+    padding-left: 170px;
+}
+
+.imagem {
+    width: 250px;
+    height: 197px;
+}
+
+.conteudoPrincipal {
+    background-color: rgba(242, 242, 242, 1);
+}
+
+main {
+    margin-top: 100px;
+}
+
+.formulario {
+    margin: auto;
+    background-color: #FFFFFF;
+    width: 650px;
+    border-radius: 30px;
+    padding: 90px;
+    font-family: Inter;
+    
+}
+
+.botao {
+    margin-bottom: 10px;
+    margin-top: 40px;
+    margin-right: 100px;
+    width: 440px;
+    border-radius: 10px;
+    border-style: none;
+    color: white;
+    background: rgba(12, 112, 242, 0.9);
+    padding: 10px;
+    box-shadow: 0px 6px 4px 0px rgba(12, 112, 242, 0.25);
+}
+
+input {
+    border-radius: 10px;
+    background: #F2F2F2E5;
+    color: rgba(57, 57, 57, 0.5);
+    border-style: none;
+    width: 430px;
+    padding: 12px;
+}
+
+.latLong {
+    align-items: center;
+    width: 200px;
+    margin: auto;
+}
+
+#long {
+    margin-left: 30px;
+}
+
+.resultLoc {
+    margin-top: 150px;
+    text-align: center;
+    font-family: Inter;
+}
+
+#locA {
+    width: 1000px;
+    padding-top: 15px;
+    margin-left: 200px;
+    background-color: #0C70F2;
+    border-radius: 30px 30px 0px 0px;
+    color: white;
+    font-family: Inter;
+    text-align: center;
+    display: grid;
+    grid-auto-flow: column;
+    columns: auto;
+}
+
+#resultCep {
+    width: 1000px;
+    padding-top: 15px;
+    margin-left: 200px;
+    background-color: #ffffff;
+    border-radius: 0px 0px 30px 30px;
+    color: black;
+    font-family: Inter;
+    text-align: center;
+    display: grid;
+    grid-auto-flow: column;
+    columns: auto;
+}
+
+#resultCep > input {
+    background-color: transparent;
+    width: 285px;
+    margin: auto;
+    margin-bottom: 15px;
+    height: 25px;
+    text-align: center;
+    color: black;
+}
+
+.resultTime {
+    margin-top: 150px;
+    font-family: Inter;
+    text-align: center;
+}
+
+#titleTime {
+    border: solid 1px #0C70F2;
+    margin: auto;
+    padding-top: 2px;
+    border-radius: 30px;
+    width: 1001px;
+    height: 46px;
+    background-color: #FFFFFF;
+    margin-left: 203px;
+    margin-top: 30px;
+    
+    
+}
+
+.result {
+    text-align: center;
+    font-family: Inter;
+    font-size: larger;
+    
+}
+
+
+.end {
+    margin-top: 260px;
+    font-family: Inter;
+    color: white;
+    text-align: right;
+    height: 63px;
+    width: 1349px;
+    background-color: #0C70F2;
+    padding: 20px;
+}
+
+.pForm {
+    margin-top: 20px;
+    
+}
+
+#celsius > input {
+    width: 35px;
+    height: 35px;
+    background-color: transparent;
+    
+}
+
+#celsiusRes {
+    font-size: 10px;
+    margin-top: 4px;
+}
+
