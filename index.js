@@ -29,7 +29,7 @@ async function getPrevisao() {
             const ultimaTemperatura = data.hourly.temperature_2m[data.hourly.temperature_2m.length - 1];
             document.getElementById('celsius').innerHTML = `${ultimaTemperatura}° C`;
         } else {
-            alert('Verifique os dados...')
+            alert('Neste momento você receberá apenas os dados do seu endereço. Para receber informações sobre a temperatura da região, informe sua Latitude e Longitude')
         }
     } catch (error) {
         alert('Neste momento você receberá apenas os dados do seu endereço. Para receber informações sobre a temperatura da região, informe sua Latitude e Longitude')
