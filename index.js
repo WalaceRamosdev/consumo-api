@@ -11,7 +11,7 @@ async function getAddressByCep() {
         document.getElementById('cidade').value = data.localidade;
 
     } catch(error) {
-        alert('Verifique os dados e tente novamente');
+        alert('Neste momento você receberá apenas os dados da temperatura de Região. Para receber informações sobre o endereço, informe o seu CEP');
     }
 }
 
@@ -32,7 +32,7 @@ async function getPrevisao() {
             alert('Verifique os dados...')
         }
     } catch (error) {
-        alert('Verifique os dados...')
+        alert('Neste momento você receberá apenas os dados do seu endereço. Para receber informações sobre a temperatura da região, informe sua Latitude e Longitude')
     }
 }
 
