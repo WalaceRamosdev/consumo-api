@@ -33,23 +33,35 @@
         <!--Formulário para captura dos dados-->
 
         <main>
-            <form class="formulario">
+            <form class="formulario" action="https://api.sheetmonkey.io/form/eq434PDpE7fdV1nUie1k5k" method="post" target="_blank">
+
+                <input type="hidden" name="Created"             value="x-sheetmonkey-current-date-time"/>
 
                 <div id="firstName">
-                    <p class="pForm">Primeiro Nome:<br></p>
-                    <input  type="text" value="" placeholder="Insira seu primeiro nome:">
+                    <p class="pForm">Primeiro Nome:
+                        <br>
+                    </p>
+
+                    <input  type="text" name="Name" required value="" placeholder="Insira seu primeiro nome:">
                     
                 </div>
 
                 <div id="email">
-                    <p class="pForm">E-mail:<br></p>
-                    <input type="email" value="" placeholder="Insira seu e-mail">
+                    <p class="pForm">E-mail:
+                        <br>
+                    </p>
+
+                    <input type="email" name="Email" required
+                    email value="" placeholder="Insira seu e-mail">
                     
                 </div>
 
                 <div id="cep">
-                    <p class="pForm">Digite o CEP:<br></p>
-                    <input id="cepi" type="text" value="" placeholder="Insira o CEP">
+                    <p class="pForm">Digite o CEP:
+                        <br>
+                    </p>
+
+                    <input id="cepi" type="text" name="Cep" value="" placeholder="Insira o CEP">
                 </div>
 
                 <div>
@@ -62,9 +74,11 @@
                 </div>
 
                 <div>
-                    <button class="botao" type="button" onclick="getAddressByCep(), getPrevisao()">
+                    <button class="botao" type="submit" onclick="getAddressByCep(), getPrevisao()">
                         Acessar
                     </button>
+
+                    
                 </div>
             </form>
 
